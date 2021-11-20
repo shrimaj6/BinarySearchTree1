@@ -83,7 +83,5 @@ namespace BinarySearchTree1
             TraversePostorder(root.RightNode);
             Console.Write(root.data + " ");
         }
-
-
     }
 }
