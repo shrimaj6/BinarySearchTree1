@@ -25,6 +25,9 @@ namespace BinarySearchTree1
             obj1.TraversePostorder(obj1.root);
             Console.WriteLine();
             obj1.TraversePreorder(obj1.root);
+            Console.WriteLine();
+            bool isFound = obj1.SearchBST(obj1.root, 63);
+            Console.WriteLine("63 is found " + isFound);
         }
     }
 }
